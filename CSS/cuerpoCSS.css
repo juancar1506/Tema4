@@ -1,0 +1,42 @@
+@import url('header.css');
+@import url('footer.css');
+
+#contenido{
+    margin-top: 150px;
+    margin: auto;
+    position:relative;
+    background-color: violet;
+    width: 80%;
+    height: 1000px;
+    padding: 12px;
+    z-index: 1;
+    display: flex;
+}
+
+#filtro{
+    background-color: tomato;
+    width: 20%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.cuerpo{
+    background-color: yellowgreen;
+    position: relative;
+    width: 80%;
+    float: right;
+}
+
+.camiseta{
+    background-color: yellow;
+    width: 110px;
+    height: 160px;
+    position: relative;
+    display: block;
+}
+.camiseta img{
+    position: relative;
+    width: 100px;
+    height: 150px;
+    margin:2%;
+}
